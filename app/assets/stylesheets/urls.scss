@@ -1,0 +1,52 @@
+// Place all the styles related to the urls controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'bootstrap';
+
+.jumbotron {
+	text-align: center;
+	color: #fff;
+	background-color: #33BEFF;
+}
+
+.shorten_input {
+	color: #B8B8B8;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	height: 55px;
+	width: 95%;
+}
+
+.short_url_box {
+	background: #F3F3F3;
+	border-radius: 8px;
+	width: 20%;
+	height: 80px;
+	max-height: 200px;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	position: absolute;
+	left: 40%;
+}
+
+.alert-alert {
+  @extend .alert-danger;
+}
+
+.alert-notice {
+  @extend .alert-success;
+}
+
+footer {
+	position:fixed;
+	background-color: #333;
+    color: #ccc;
+    border-top: 5px solid #00aeef;
+    padding-top: 30px;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 300px;
+    bottom: 0px;   
+    text-align: center;    
+}
